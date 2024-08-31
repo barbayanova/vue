@@ -2,8 +2,8 @@
     <header>
         <h1>Полезные свойства капусты</h1>
         <nav :style="asMenu">
+            <button @click="activeMenu"><img src="../assets/img/apps 1.svg" alt=""></button>
             <ul>
-                <li @click="activeMenu"><img src="./assets/img/apps 1.svg" alt=""></li>
                 <li>Главная</li>
                 <li>Блог</li>
                 <li>О нас</li>
